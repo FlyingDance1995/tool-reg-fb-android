@@ -37,6 +37,7 @@ def change_ip_proxy_of_phone(device_id):
         if resp.status_code == 200:
             print(resp)
         time.sleep(30)
+
     elif CURRENT_PROXY == 'TM_PROXY':
         tm_proxy = TM_PROXY['API_KEYS']
         while True:
@@ -48,6 +49,7 @@ def change_ip_proxy_of_phone(device_id):
                 break
         push_proxy_ip_to_android_phone(device_id, res_ip)
         return res_ip
+
     elif CURRENT_PROXY == 'TIN_SOFT_PROXY':
         tin_soft_proxy = TIN_SOFT_PROXY['API_KEYS']
         while True:
