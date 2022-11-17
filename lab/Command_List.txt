@@ -1,0 +1,2 @@
+adb -s {id} shell pm clear com.facebook.katana
+adb -s {id} shell input tap 150 250
