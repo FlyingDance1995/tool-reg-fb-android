@@ -32,8 +32,10 @@ def main(input_file, output=False):
 
 if __name__ == '__main__':
     dir_path = os.path.dirname(os.path.realpath(__file__))
+
+    # Điền đường dẫn tới file cần kiểm tra xem số lượng tài khoản sống là bao nhiêu thì nhập vào đây
     # input_file = 'D:/MVS Project/python-tool-utils/data/facebook_account/facebook_account_2021_06_25.txt'
-    input_file_path = 'E:/fb_android_login/output.txt'
+    input_file_path = 'C:/Users/Front-End/Desktop/tool-reg-fb-android/output_ssa7.txt'
 
 
     main(input_file_path, output=True)
