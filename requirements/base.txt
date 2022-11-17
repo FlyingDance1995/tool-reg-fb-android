@@ -1,0 +1,5 @@
+opencv-python==4.5.2.54
+pytesseract==0.3.7
+requests==2.25.1
+selenium==3.141.0
+slack-sdk==3.6.0

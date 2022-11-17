@@ -1,1 +1,0 @@
-# tool-reg-fb-android
